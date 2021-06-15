@@ -1,0 +1,34 @@
+@media(max-width:800px){
+    .toggle-button{
+        display: flex;
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .navbar-title{
+    margin: 2vh;        
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+    
+    .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0%;
+    }
+    .navbar-links li{
+        border-bottom: .02rem solid white;
+        text-align: center;
+    }
+    .navbar-links ul li a{
+        padding: .5rem 1rem;
+        background-color: peru;
+    }
+}

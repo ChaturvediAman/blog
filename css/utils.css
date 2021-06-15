@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --size-x:2rem;
+    --size-s:1.5rem;
+    --size-l:2.5rem;
+
+    --secondary-color:#fff;
+    --primary-color:#1e3d59;
+
+}
