@@ -6,19 +6,38 @@ toggleButton.addEventListener('click',()=>{
     navbarLinks.classList.toggle('active');
 });
 
-//For modals
-//Step-1 Get the modal
-const modal=document.getElementById("modal");
-//Step-2 Get the button that opens the modal
-const about=document.getElementById("about");
-//Step-3 Get the <span> element that closes the modal
-const close=document.getElementById("close");
-//Step-4 When the user clicks on the link open the modal
-about.addEventListener("click",function(){
-    modal.style.display="flex";
-});
-//Step-5 When the user clicks on the <span> close the modal
+const link_about=document.getElementById("about");
+const link_feedback=document.getElementById("feedback");
+const link_contact=document.getElementById("contact");
+
+const about=document.querySelector(".about")
+const feedback=document.querySelector(".feedback")
+const contact=document.querySelector(".contact")
+
+const outerBox=document.getElementById("outer");
+
+link_about.addEventListener("click",function(){
+    outerBox.style.display="flex";
+    about.style.display="flex";
+    feedback.style.display="none";
+    contact.style.display="none";
+})
+link_feedback.addEventListener("click",function(){
+    outerBox.style.display="flex";
+    about.style.display="none";
+    feedback.style.display="flex";
+    contact.style.display="none";
+})
+link_contact.addEventListener("click",function(){
+    outerBox.style.display="flex";
+    about.style.display="none";
+    feedback.style.display="none";
+    contact.style.display="flex";
+})
+
+//Close button
+const close=document.querySelector(".close");
 close.addEventListener("click",function(){
-    modal.style.display="none";
+    
+    outerBox.style.display="none";
 });
-//Step-6 When the user clicks anywhere outside of the box close it
