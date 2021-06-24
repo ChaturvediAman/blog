@@ -118,7 +118,8 @@
     z-index: 1;
     font-size: var(--size-x);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 25vh;
     text-align: center;
