@@ -60,64 +60,66 @@
     background-color: blanchedalmond;
     border-radius: 1rem;
 }
-.outer-box{
-    display: none;
-    justify-content: center;
-    align-items: center;
-    text-align: center;    
-}
-.container{
-    border: 2px solid var(--primary-color);
-    border-radius: 5%;
-    width: 45%;
-    height: 65vh;
-    position: absolute;
-    top: 17vh;
-    background-color: var(--tertiary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.about,.feedback,.contact{
-    display: none;
-}
-.close{
+/* .close{
     position: absolute;
     right: 0;
 }
 .close:hover{
     cursor: pointer;
 }
+.contact{
+    display: none;
+} */
+.content{
+    display: none;
+    background-color: var(--quaternary-color);
+    /* height: 198vh; */
+    border: 2px solid var(--quaternary-color);
+}
+.content-box{
+    /* height: ; */
+    width: 70%;
+    margin: 0vh auto ;
+    /* border: 2px solid green; */
+
+}
+
+.date{
+    margin: 2vh 0vh;
+    font-size: var(--size-es);
+}
+.heading {
+    font-size: var(--size-pen);   
+    line-height: var(--size-l);
+    font-family: Lato,sans-serif;
+    margin: var(--margin);
+    text-align:center;
+    font-weight: 700;
+}
+.point-text p{
+    font-size: var(--size-pen);   
+    line-height: var(--size-l);
+    font-family: Lato,sans-serif;
+    margin: var(--margin);
+    text-align:left;
+}
+.links{
+    border: 2px solid black;
+    width: 100;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
 .about{
-
-    font-size: var(--size-l);
+    width: 75vh;
+    height: 40vh;
+    background-color: var(--tertiary-color);
+    z-index: 1;
+    font-size: var(--size-x);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25vh;
+    text-align: center;
 }
-#contact_form{
-
-
-    font-size: var(--size-l);
-}
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  

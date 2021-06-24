@@ -6,38 +6,8 @@ toggleButton.addEventListener('click',()=>{
     navbarLinks.classList.toggle('active');
 });
 
-const link_about=document.getElementById("about");
-const link_feedback=document.getElementById("feedback");
-const link_contact=document.getElementById("contact");
-
-const about=document.querySelector(".about")
-const feedback=document.querySelector(".feedback")
-const contact=document.querySelector(".contact")
-
-const outerBox=document.getElementById("outer");
-
-link_about.addEventListener("click",function(){
-    outerBox.style.display="flex";
-    about.style.display="flex";
-    feedback.style.display="none";
-    contact.style.display="none";
-})
-link_feedback.addEventListener("click",function(){
-    outerBox.style.display="flex";
-    about.style.display="none";
-    feedback.style.display="flex";
-    contact.style.display="none";
-})
-link_contact.addEventListener("click",function(){
-    outerBox.style.display="flex";
-    about.style.display="none";
-    feedback.style.display="none";
-    contact.style.display="flex";
-})
-
-//Close button
-const close=document.querySelector(".close");
-close.addEventListener("click",function(){
+const contact=document.getElementById("about");
+const contact_content=document.querySelector(".contact");
+contact.addEventListener("click",function(){
     
-    outerBox.style.display="none";
 });

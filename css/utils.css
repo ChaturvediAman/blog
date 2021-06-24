@@ -7,10 +7,14 @@
 :root{
     --size-x:2rem;
     --size-s:1.5rem;
+    --size-es:1rem;
     --size-l:2.5rem;
+
+    --size-pen:1.5rem;
 
     --secondary-color:#fff;
     --primary-color:#1e3d59;
     --tertiary-color:#c0bbac;
-
+    --quaternary-color:#efece9;
+    --margin:0 0 1.2rem;
 }
