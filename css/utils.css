@@ -5,12 +5,12 @@
 }
 
 :root{
-    --size-x:2rem;
-    --size-s:1.5rem;
-    --size-es:1rem;
-    --size-l:2.5rem;
+    --size-x:1.5rem;
+    --size-s:1.0rem;
+    --size-es:0.5rem;
+    --size-l:2.0rem;
 
-    --size-pen:1.5rem;
+    --size-pen:1.0rem;
 
     --secondary-color:#fff;
     --primary-color:#1e3d59;
