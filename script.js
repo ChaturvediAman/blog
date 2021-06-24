@@ -6,8 +6,10 @@ toggleButton.addEventListener('click',()=>{
     navbarLinks.classList.toggle('active');
 });
 
-const contact=document.getElementById("about");
-const contact_content=document.querySelector(".contact");
-contact.addEventListener("click",function(){
-    
+const links=document.querySelector(".links");
+const about=document.getElementById("about");
+const aboutContent=document.querySelector(".about");
+console.log(about);
+about.addEventListener("click",()=>{
+    aboutContent.style.display="flex";
 });
