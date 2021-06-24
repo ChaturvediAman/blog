@@ -60,11 +60,9 @@
     background-color: blanchedalmond;
     border-radius: 1rem;
 }
-.contact{
-    display: none;
-} 
+ 
 .content{
-    display: none;
+    display: flex;
     background-color: var(--quaternary-color);
     /* height: 198vh; */
     border: 2px solid var(--quaternary-color);
