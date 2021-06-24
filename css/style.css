@@ -74,10 +74,9 @@
     /* border: 2px solid green; */
     
 }
-
 .date{
     margin: 2vh 0vh;
-    font-size: var(--size-es);
+    font-size: var(--size-s);
 }
 .heading {
     font-size: var(--size-pen);   
@@ -94,7 +93,6 @@
     margin: var(--margin);
     text-align:left;
 }
-
 .about{
     width: 75vh;
     height: 40vh;
@@ -109,12 +107,12 @@
     left: 33vw;
     text-align: center;
 }
-    .close{
-        position: absolute;
-        top: 0vh;
-        right: 2vh;
-    }
+.close{
+    position: absolute;
+    top: 0vh;
+    right: 2vh;
+}
     
-    .close:hover{
-        cursor: pointer;
-    }
+.close:hover{
+    cursor: pointer;
+}

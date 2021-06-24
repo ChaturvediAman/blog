@@ -19,4 +19,5 @@ about.addEventListener("click",()=>{
 const close=document.querySelector(".close")
 close.addEventListener("click",()=>{
     aboutContent.style.display="none";
+    contentBox.style.filter="blur(0px)";
 });
