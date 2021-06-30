@@ -57,7 +57,7 @@
 .toggle-button .bar{
     height: .25rem;
     width: 100%;
-    background-color: blanchedalmond;
+    background-color: var(--secondary-color);
     border-radius: 1rem;
 }
  
